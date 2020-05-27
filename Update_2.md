@@ -3,12 +3,12 @@
 
 
 Written Succesful tests for,
-- `test_check_no_spec_file`[here](https://github.com/thisisshub/rpmlint/blob/d4864797fa713ffd2fbcff9c67f550c1f98f7c30/test/test_speccheck.py#L70)
-- `test_check_no_spec_file_not_applied`)[here](https://github.com/thisisshub/rpmlint/blob/d4864797fa713ffd2fbcff9c67f550c1f98f7c30/test/test_speccheck.py#L79)
-- `test_check_non_utf8_spec_file`[here](https://github.com/thisisshub/rpmlint/blob/d4864797fa713ffd2fbcff9c67f550c1f98f7c30/test/test_speccheck.py#L88)
-- `test_check_non_utf8_spec_file_not_applied`[here](https://github.com/thisisshub/rpmlint/blob/d4864797fa713ffd2fbcff9c67f550c1f98f7c30/test/test_speccheck.py#L98)
-- `test_check_invalid_spec_name`[here](https://github.com/thisisshub/rpmlint/blob/d4864797fa713ffd2fbcff9c67f550c1f98f7c30/test/test_speccheck.py#L108)
-- `test_check_invalid_spec_name_not_applied`[here](https://github.com/thisisshub/rpmlint/blob/d4864797fa713ffd2fbcff9c67f550c1f98f7c30/test/test_speccheck.py#L117)
+- `test_check_no_spec_file`([here](https://github.com/thisisshub/rpmlint/blob/d4864797fa713ffd2fbcff9c67f550c1f98f7c30/test/test_speccheck.py#L70))
+- `test_check_no_spec_file_not_applied`([here](https://github.com/thisisshub/rpmlint/blob/d4864797fa713ffd2fbcff9c67f550c1f98f7c30/test/test_speccheck.py#L79))
+- `test_check_non_utf8_spec_file`([here](https://github.com/thisisshub/rpmlint/blob/d4864797fa713ffd2fbcff9c67f550c1f98f7c30/test/test_speccheck.py#L88))
+- `test_check_non_utf8_spec_file_not_applied`([here](https://github.com/thisisshub/rpmlint/blob/d4864797fa713ffd2fbcff9c67f550c1f98f7c30/test/test_speccheck.py#L98))
+- `test_check_invalid_spec_name`([here](https://github.com/thisisshub/rpmlint/blob/d4864797fa713ffd2fbcff9c67f550c1f98f7c30/test/test_speccheck.py#L108))
+- `test_check_invalid_spec_name_not_applied`([here](https://github.com/thisisshub/rpmlint/blob/d4864797fa713ffd2fbcff9c67f550c1f98f7c30/test/test_speccheck.py#L117))
 
 ### Tests
 -------------
@@ -48,7 +48,7 @@ which works perfectly fine. It looks something like this,
 ----------
 
 For implementation of checks `no-spec-file` and `invalid-spec-name`.
-For they currently lie inside the same method called `check_source`[here](https://github.com/thisisshub/rpmlint/blob/d4864797fa713ffd2fbcff9c67f550c1f98f7c30/rpmlint/checks/SpecCheck.py#L126)
+For they currently lie inside the same method called `check_source`([here](https://github.com/thisisshub/rpmlint/blob/d4864797fa713ffd2fbcff9c67f550c1f98f7c30/rpmlint/checks/SpecCheck.py#L126))
 
 Would implementing them as,
 
