@@ -1,14 +1,14 @@
 #### What have I done so far? 
-**(Commit Link: [here](https://github.com/rpm-software-management/rpmlint/compare/master...thisisshub:gsoc-rpmlint-dev?expand=1))**
+**(Commit Link: [here](https://github.com/thisisshub/rpmlint/commit/d4864797fa713ffd2fbcff9c67f550c1f98f7c30))**
 
 
 Written Succesful tests for,
-- `test_check_no_spec_file`[here](https://github.com/thisisshub/rpmlint/blob/60371329106df7c46b8049bc59b33d08839c46b4/test/test_speccheck.py#L70)
-- `test_check_no_spec_file_not_applied`)[here](https://github.com/thisisshub/rpmlint/blob/60371329106df7c46b8049bc59b33d08839c46b4/test/test_speccheck.py#L79)
-- `test_check_non_utf8_spec_file`[here](https://github.com/thisisshub/rpmlint/blob/60371329106df7c46b8049bc59b33d08839c46b4/test/test_speccheck.py#L88)
-- `test_check_non_utf8_spec_file_not_applied`[here](https://github.com/thisisshub/rpmlint/blob/60371329106df7c46b8049bc59b33d08839c46b4/test/test_speccheck.py#L98)
-- `test_check_invalid_spec_name`[here](https://github.com/thisisshub/rpmlint/blob/60371329106df7c46b8049bc59b33d08839c46b4/test/test_speccheck.py#L108)
-- `test_check_invalid_spec_name_not_applied`[here](https://github.com/thisisshub/rpmlint/blob/60371329106df7c46b8049bc59b33d08839c46b4/test/test_speccheck.py#L117)
+- `test_check_no_spec_file`[here](https://github.com/thisisshub/rpmlint/blob/d4864797fa713ffd2fbcff9c67f550c1f98f7c30/test/test_speccheck.py#L70)
+- `test_check_no_spec_file_not_applied`)[here](https://github.com/thisisshub/rpmlint/blob/d4864797fa713ffd2fbcff9c67f550c1f98f7c30/test/test_speccheck.py#L79)
+- `test_check_non_utf8_spec_file`[here](https://github.com/thisisshub/rpmlint/blob/d4864797fa713ffd2fbcff9c67f550c1f98f7c30/test/test_speccheck.py#L88)
+- `test_check_non_utf8_spec_file_not_applied`[here](https://github.com/thisisshub/rpmlint/blob/d4864797fa713ffd2fbcff9c67f550c1f98f7c30/test/test_speccheck.py#L98)
+- `test_check_invalid_spec_name`[here](https://github.com/thisisshub/rpmlint/blob/d4864797fa713ffd2fbcff9c67f550c1f98f7c30/test/test_speccheck.py#L108)
+- `test_check_invalid_spec_name_not_applied`[here](https://github.com/thisisshub/rpmlint/blob/d4864797fa713ffd2fbcff9c67f550c1f98f7c30/test/test_speccheck.py#L117)
 
 ### Tests
 -------------
@@ -48,7 +48,7 @@ which works perfectly fine. It looks something like this,
 ----------
 
 For implementation of checks `no-spec-file` and `invalid-spec-name`.
-For they currently lie inside the same method called `check_source`[here](https://github.com/thisisshub/rpmlint/blob/60371329106df7c46b8049bc59b33d08839c46b4/rpmlint/checks/SpecCheck.py#L126)
+For they currently lie inside the same method called `check_source`[here](https://github.com/thisisshub/rpmlint/blob/d4864797fa713ffd2fbcff9c67f550c1f98f7c30/rpmlint/checks/SpecCheck.py#L126)
 
 Would implementing them as,
 
