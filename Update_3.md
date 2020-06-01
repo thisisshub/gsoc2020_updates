@@ -17,9 +17,9 @@ Paste of test output,
 
 ### Checks
 ------
-- `no-spec-file` **([here](https://github.com/thisisshub/rpmlint/blob/8e4848009ea2b9dc61a4ced40e2be0f5f32543fb/rpmlint/checks/SpecCheck.py#L143))**
-- `invalid-spec-name` **([here](https://github.com/thisisshub/rpmlint/blob/8e4848009ea2b9dc61a4ced40e2be0f5f32543fb/rpmlint/checks/SpecCheck.py#L150))**
-- `non-utf8-spec-file` **([here](https://github.com/thisisshub/rpmlint/blob/8e4848009ea2b9dc61a4ced40e2be0f5f32543fb/rpmlint/checks/SpecCheck.py#L165))**
+- `no-spec-file` **([here](https://github.com/thisisshub/rpmlint/blob/773f8f4da99265b19fb055a914828d85d51bf1ff/rpmlint/checks/SpecCheck.py#L143))**
+- `invalid-spec-name` **([here](https://github.com/thisisshub/rpmlint/blob/773f8f4da99265b19fb055a914828d85d51bf1ff/rpmlint/checks/SpecCheck.py#L150))**
+- `non-utf8-spec-file` **([here](https://github.com/thisisshub/rpmlint/blob/773f8f4da99265b19fb055a914828d85d51bf1ff/rpmlint/checks/SpecCheck.py#L165))**
 
 ### Suggestions
 ----------
@@ -29,4 +29,4 @@ Suggest a better `except` statement for,
 except Exception as indentifier:
    print(str(indentifier))
 ```
-**Permalinked here: [here](https://github.com/thisisshub/rpmlint/blob/8e4848009ea2b9dc61a4ced40e2be0f5f32543fb/rpmlint/checks/SpecCheck.py#L162)**
+**Permalinked here: [here](https://github.com/thisisshub/rpmlint/blob/773f8f4da99265b19fb055a914828d85d51bf1ff/rpmlint/checks/SpecCheck.py#L162)**
