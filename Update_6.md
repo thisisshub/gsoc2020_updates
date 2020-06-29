@@ -9,7 +9,7 @@
 
 #### Changes in test_speccheck.py
 
-- Add test for prereq Check
-- Add test for patch-fuzz-is-changed
+- Add test for prereq [here](https://github.com/thisisshub/rpmlint/commit/e84ab7f3be382c313599699cd8a5bd1bfde2ae6b#r40235346)
+- Add test for patch-fuzz-is-changed[here](https://github.com/thisisshub/rpmlint/commit/e84ab7f3be382c313599699cd8a5bd1bfde2ae6b#r40235361)
 
 ###### Travis CI status pass in fedora32, fedoradev, opensusetw
