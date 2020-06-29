@@ -1,5 +1,5 @@
 
-## What have I done far?
+## What have I done so far?
 - Submit a PR [here](https://github.com/rpm-software-management/rpmlint/pull/436)
 - Complete Trello tasks under [Sprint Backlog](https://trello.com/b/bGANgSB7/gsoc-2020-refactor-old-rpmlint-checks)
 
