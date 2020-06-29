@@ -13,3 +13,5 @@
 - Add test for patch-fuzz-is-changed [here](https://github.com/thisisshub/rpmlint/commit/e84ab7f3be382c313599699cd8a5bd1bfde2ae6b#r40235361)
 
 ###### Travis CI status pass in fedora32, fedoradev, opensusetw
+
+###### Link to [trello](https://trello.com/b/bGANgSB7/gsoc-2020-refactor-old-rpmlint-checks)
